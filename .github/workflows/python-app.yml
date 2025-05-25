@@ -2,7 +2,7 @@ name: Run Gold Price Script
 
 on:
   schedule:
-    - cron: '15 12 * * *'  # 
+    - cron: '30 12 * * *'  # 
   workflow_dispatch:      # Allows manual trigger
 
 jobs:
